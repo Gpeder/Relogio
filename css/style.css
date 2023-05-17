@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right,#737373,#404040,#0D0D0D);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.relogio{
+    height: 250px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    border-radius: 20px;
+    border: #0D0D0D solid 3px;
+    background-color: #0D0D0D;
+}
+.relogio div{
+    height: 200px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+.relogio label{
+    font-size: 60px;
+}
+.relogio label.tempo{
+    font-size: 20px;
+}
